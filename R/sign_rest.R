@@ -1,7 +1,7 @@
 ##Sign Restrictions
 ##2/21/20
 
-
+###Meant to work in tandem with Chris Sims' VAR Tools functions
 
 draw_signs = function(varout, signm, printevery = 50, printfails=5000, ndraws=1000, horiz = 40, bands = c(0.05,0.16,0.5,0.84,0.95), verbose=TRUE){
 ###Signm has the following structure nv*nshock. Each entry defines the length of the restriction
